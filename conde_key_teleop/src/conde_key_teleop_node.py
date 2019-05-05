@@ -100,7 +100,7 @@ class KeyTeleop():
         backward_max = rospy.get_param('~turbo/linear_backward_max', 0.5)
         self._backward = Velocity(backward_min, backward_max, self._num_steps)
 
-        angular_min = rospy.get_param('~turbo/angular_min', 0.7)
+        angular_min = rospy.get_param('~turbo/angular_min', 0.0)
         angular_max = rospy.get_param('~turbo/angular_max', 1.2)
         self._rotation = Velocity(angular_min, angular_max, self._num_steps)
 
