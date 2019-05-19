@@ -68,6 +68,12 @@ To launch the simulation world with the basic track and preconfiged robot use
 roslaunch conde_world test.launch
 ```
 
+To launch the joystick teleoperator in this repo use
+
+```
+roslaunch wave_teleop joy.launch
+```
+
 To launch the simulation world for D1, D2 and D3 challenges run:
 
 	roslaunch conde_world spawn_world.launch
